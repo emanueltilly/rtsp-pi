@@ -1,0 +1,117 @@
+body {
+    background-color: #222629;
+}
+
+
+.mainBox {
+    z-index:20;
+    background-color: #474a4f;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 620px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;  
+    
+    color: #f8f8fa;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+}
+
+.footer{
+    z-index:10;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #474a4f;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+img{
+    margin-top: 30px;
+    width: 80px;
+    
+}
+
+a:link {
+    color: #474a4f;
+}
+a:visited {
+    color: #474a4f;
+  }
+
+.formfield {
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+.formsubmit{
+    background-color: #87c232;
+    color: #ffffff;
+    border-radius: 8px;
+    height: 30px;
+    width: 40%;
+    
+}
+
+.historyButtons0{
+    margin-top: 5px;
+    background-color: #222629;
+    color: #ffffff;
+    border-radius: 8px;
+    height: 20px;
+    width: 60%;
+    
+}
+
+.historyButtons1{
+    margin-top: 5px;
+    background-color: #87c232;
+    color: #222629;
+    border-radius: 8px;
+    height: 20px;
+    width: 60%;
+    
+}
+
+.historyRemoveButton{
+    margin-top: 5px;
+    background-color: #405424;
+    color: #f8f8fa;
+    border-radius: 8px;
+    height: 20px;
+    width: 20%;
+    
+}
+
+
+h1 {
+    color: #f8f8fa;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+h3 {
+    color: #f8f8fa;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+    
+    }
